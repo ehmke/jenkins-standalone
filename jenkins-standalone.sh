@@ -26,8 +26,8 @@ JENKINS_PLUGINS=(
     "token-macro/1.10"
 )
 
-JENKINS_WAR_MIRROR="http://mirrors.jenkins-ci.org/war-stable"
-JENKINS_PLUGINS_MIRROR="http://mirrors.jenkins-ci.org/plugins"
+JENKINS_WAR_MIRROR="http://jenkins.mirror.isppower.de/war-stable"
+JENKINS_PLUGINS_MIRROR="http://jenkins.mirror.isppower.de/plugins"
 
 usage () {
     cat <<EOT
